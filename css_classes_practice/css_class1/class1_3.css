@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+}
+h1 {
+  color: rgb(55, 178, 244);
+  font-size: large;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  color: rgb(94, 128, 0);
+  line-height: 1px;
+}
+a {
+  color: rgb(255, 0, 183);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(28, 245, 162);
+}
