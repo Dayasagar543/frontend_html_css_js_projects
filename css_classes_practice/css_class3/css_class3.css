@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: transparent;
+}
+h2 {
+  color: rgb(255, 255, 0);
+}
+h3 {
+  color: cyan;
+}
+p {
+  color: rgba(52, 6, 55, 0.8);
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #2bbad4;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: currentColor;
+  border-radius: 45px;
+  margin: 25px;
+}
+
+/* colors are in hex code, rgb, rgba,hsl,hsla */
+/* if you want to make text transparent you can use the color as transparent */
