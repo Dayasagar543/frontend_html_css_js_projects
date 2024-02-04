@@ -6,7 +6,7 @@ h2 {
   color: rgb(255, 255, 0);
 }
 h3 {
-  color: cyan;
+  color: #00ffff;
 }
 p {
   color: rgba(52, 6, 55, 0.8);
@@ -30,4 +30,13 @@ p {
 /* colors are in hex code, rgb, rgba,hsl,hsla */
 /* if you want to make text transparent you can use the color as transparent */
 
-/* hue means pure color ,tint means adding whiteness to the color to make it translucnet or transparent */
+/* hue: means pure color ,
+tint :means adding whiteness to the color to make it translucnet or transparent,
+shade: addding black color on the color or pure color is called shade (black),
+tone:adding grey addiiton on the color or pure color is added with grey color,
+for grey color desingers use 3 numbers as show like eg:333,444,555,etc ccc
+
+
+
+use tint and shade generator to create the shades.
+ */
