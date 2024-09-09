@@ -27,56 +27,124 @@ aria-*: Attributes for accessibility purposes (e.g., aria-label). -->
 <!-- To create a link that takes the user to a specific section or element within the
 same webpage, you can use the anchor (a) tag's href attribute along with the id attribute of the target element. -->
 
-  <!--* 2: What's the difference between relative and absolute URLs in the href attribute? -->
-  <!-- Relative URLs are URLs that are relative to the current page's URL. 
+<!--* 2: What's the difference between relative and absolute URLs in the href attribute? -->
+<!-- Relative URLs are URLs that are relative to the current page's URL. 
   Absolute URLs are complete URLs, including the protocol (http/https) and domain. -->
 
-  <!--* 3: How does the download attribute work in the anchor tag? -->
-  <!-- The download attribute suggests that the linked resource should be downloaded instead of navigated to, prompting the user to download the file. -->
+<!--* 3: How does the download attribute work in the anchor tag? -->
+<!-- The download attribute suggests that the linked resource should be downloaded instead of navigated to, prompting the user to download the file. -->
 
-  <!--* 4: How do you create an HTML link that opens the user's default email client with a specific email address? -->
+<!--* 4: How do you create an HTML link that opens the user's default email client with a specific email address? -->
 
+<!--* 5: How can you create a clickable link in HTML that allows users to directly initiate a phone call when clicked? -->
+<!-- To create a link that enables users to initiate a phone call when clicked, you can use the anchor tag's href attribute with the tel: protocol.  -->
 
-  <!--* 5: How can you create a clickable link in HTML that allows users to directly initiate a phone call when clicked? -->
-  <!-- To create a link that enables users to initiate a phone call when clicked, you can use the anchor tag's href attribute with the tel: protocol.  -->
- 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <a href="https://www.google.com/">google.com</a>
-  <a href="https://www.google.com/" target="_blank">google.com</a>
-  <a href="https://www.google.com/" target="_self">google.com</a>
-  <a href="https://www.google.com/" target="_top">google.com</a>
-  <a href="https://www.google.com/" target="#">google.com</a>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.google.com/">google.com</a>
+    <a href="https://www.google.com/" target="_blank">google.com</a>
+    <a href="https://www.google.com/" target="_self">google.com</a>
+    <a href="https://www.google.com/" target="_top">google.com</a>
+    <a href="https://www.google.com/" target="#" title="click now to subscribe"
+      >google.com &lt; there you are &gt; </a
+    >
+    <a href="./images/html-1000.jpg" download >download the image</a>
+    <a href="#3"> last para</a>
+    <a href="mailto:dayasagar.543@gmail.com">mail</a>
+    <a href="tel:+916303445220">phone</a>
+   
+
+    <div id="1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse et veritatis
+      maiores accusamus ipsum, magnam illo consectetur expedita vitae optio
+      obcaecati ea, delectus voluptatum, voluptatibus officia culpa amet
+      temporibus illum ad assumenda libero? Aut sint exercitationem rem
+      blanditiis cumque repudiandae eius recusandae ab, iusto eveniet corporis
+      ad a voluptatem error nisi minus! Dolore tenetur odio quasi blanditiis
+      doloremque magnam, quidem voluptatibus reprehenderit, delectus
+      perspiciatis quas similique sed, asperiores numquam repellendus quaerat
+      illo harum quia! Aspernatur corrupti excepturi quia aperiam hic, totam,
+      rerum nostrum dolorum sequi aliquid cupiditate iusto, doloremque autem
+      eaque dolorem. Molestias tenetur, adipisci officiis, ipsa blanditiis saepe
+      quisquam illum quo ea, repellendus sapiente doloribus ab cumque dolores
+      dicta pariatur sunt. Officia, numquam modi repudiandae totam nemo aut nisi
+      placeat, fugit inventore, ex architecto assumenda labore provident natus
+      fugiat non. Iure velit incidunt molestiae! Cumque nisi est quae,
+      consequatur provident error? Laudantium excepturi veritatis asperiores
+      cupiditate tenetur ab deserunt.
+    </div>
+    <div id="2"></div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse et veritatis
+      maiores accusamus ipsum, magnam illo consectetur expedita vitae optio
+      obcaecati ea, delectus voluptatum, voluptatibus officia culpa amet
+      temporibus illum ad assumenda libero? Aut sint exercitationem rem
+      blanditiis cumque repudiandae eius recusandae ab, iusto eveniet corporis
+      ad a voluptatem error nisi minus! Dolore tenetur odio quasi blanditiis
+      doloremque magnam, quidem voluptatibus reprehenderit, delectus
+      perspiciatis quas similique sed, asperiores numquam repellendus quaerat
+      illo harum quia! Aspernatur corrupti excepturi quia aperiam hic, totam,
+      rerum nostrum dolorum sequi aliquid cupiditate iusto, doloremque autem
+      eaque dolorem. Molestias tenetur, adipisci officiis, ipsa blanditiis saepe
+      quisquam illum quo ea, repellendus sapiente doloribus ab cumque dolores
+      dicta pariatur sunt. Officia, numquam modi repudiandae totam nemo aut nisi
+      placeat, fugit inventore, ex architecto assumenda labore provident natus
+      fugiat non. Iure velit incidunt molestiae! Cumque nisi est quae,
+      consequatur provident error? Laudantium excepturi veritatis asperiores
+      cupiditate tenetur ab deserunt.
+    </div>
+    <div id="3"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse et
+      veritatis maiores accusamus ipsum, magnam illo consectetur expedita vitae
+      optio obcaecati ea, delectus voluptatum, voluptatibus officia culpa amet
+      temporibus illum ad assumenda libero? Aut sint exercitationem rem
+      blanditiis cumque repudiandae eius recusandae ab, iusto eveniet corporis
+      ad a voluptatem error nisi minus! Dolore tenetur odio quasi blanditiis
+      doloremque magnam, quidem voluptatibus reprehenderit, delectus
+      perspiciatis quas similique sed, asperiores numquam repellendus quaerat
+      illo harum quia! Aspernatur corrupti excepturi quia aperiam hic, totam,
+      rerum nostrum dolorum sequi aliquid cupiditate iusto, doloremque autem
+      eaque dolorem. Molestias tenetur, adipisci officiis, ipsa blanditiis saepe
+      quisquam illum quo ea, repellendus sapiente doloribus ab cumque dolores
+      dicta pariatur sunt. Officia, numquam modi repudiandae totam nemo aut nisi
+      placeat, fugit inventore, ex architecto assumenda labore provident natus
+      fugiat non. Iure velit incidunt molestiae! Cumque nisi est quae,
+      consequatur provident error? Laudantium excepturi veritatis asperiores
+      cupiditate tenetur ab deserunt.</div
+    >
+  </body>
 </html>
 
 <!-- *------------------------------------- -->
 <!--* BONUS: HTML ANCHOR TAG  
 <!-- *---------------------------------------- -->
 
-  <!--* ALSO WHEN TO USE QUOTES, WHEN NOT TO  -->
+<!--* ALSO WHEN TO USE QUOTES, WHEN NOT TO  -->
 
-    <a href=https://www.mozilla.org/>favorite website</a>
-    <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+<!-- <a href=https://www.mozilla.org/>favorite website</a>
+    <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a> -->
 
 <!-- So the best practice is Always include the attribute quotes. It avoids such problems, and results in more readable code. -->
 
 <!--* Single or double quotes?  -->
-<a href="https://www.example.com">A link to my example.</a>
+<!-- <a href="https://www.example.com">A link to my example.</a>
 
-<a href="https://www.example.com">A link to my example.</a>
+<a href="https://www.example.com">A link to my example.</a> -->
 
 <!-- mixing both the quotes at the same time is wrong -->
 <!-- ❌ <a href="https://www.example.com'>A link to my example.</a> -->
 
 <!-- However, if you use one type of quote, you can include the other type of quote inside your attribute values: -->
-<a href="https://www.example.com" title="Isn't this fun?">
+<!-- <a href="https://www.example.com" title="Isn't this fun?">
   A link to my example.
-</a>
+</a> -->

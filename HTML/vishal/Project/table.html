@@ -29,3 +29,114 @@
 <!--? 3: What is the significance of the colspan and rowspan attributes in table cells? Provide an example. -->
 
 <!-- SHARING IS CARING 💖 https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html tables</title>
+    <style>
+      table {
+        text-align: center;
+        border: 2px solid black;
+        background-color: rgb(127, 255, 212);
+        border-collapse: collapse;
+        border-radius: 5px;
+      }
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+        background-color: yellow;
+        border-radius: 5px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML TABLES</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>s.no</th>
+          <th>name</th>
+          <th>age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ramu</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rajendar</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>surendhar</td>
+          <td>34</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="3">count:3</td>
+      </tfoot>
+    </table>
+    <hr />
+
+    <h2>Time table</h2>
+    <table>
+      <thead>
+        <th colspan="7">Time table</th>
+      </thead>
+      <tbody>
+        <td rowspan="7">hours</td>
+        <tr>
+          <td>mon</td>
+          <td>mon</td>
+          <td>mon</td>
+          <td>mon</td>
+          <td>mon</td>
+          <td>mon</td>
+        </tr>
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+        <tr>
+          <td>science</td>
+          <td>science</td>
+          <td>science</td>
+          <td>science</td>
+          <td>science</td>
+          <td>science</td>
+        </tr>
+        <tr>
+          <td colspan="6">Lunch</td>
+        </tr>
+        <tr>
+          <td>sst</td>
+          <td>sst</td>
+          <td>sst</td>
+          <td>sst</td>
+          <td>sst</td>
+          <td rowspan="2">games</td>
+        </tr>
+        <tr>
+          <td>cs</td>
+          <td>cs</td>
+          <td>cs</td>
+          <td>cs</td>
+          <td>cs</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

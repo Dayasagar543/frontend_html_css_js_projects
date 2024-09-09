@@ -44,3 +44,47 @@ understand image content.
             (max-width: 1100px) 1000px,
             1200px"
 /> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Thapa images</h1>
+    <a href="https://www.youtube.com/watch?v=5ccq_nLHneE">
+      <img
+        src="./images/html.jpeg"
+        alt="thapa banner image "
+        height="100px"
+        width="100px"
+        title="thapa img"
+        loading="lazy"
+      />
+    </a>
+    <img
+      src="./images/html.jpeg"
+      alt="thapa banner image "
+      height="150px"
+      width="200px"
+      usemap="#map"
+      title="thapa img"
+      loading="lazy"
+    />
+    <map name="map">
+      <area
+        shape="rect"
+        coords="0,0,100,140"
+        href="https://www.youtube.com/watch?v=5ccq_nLHneE"
+        alt="thapa banner image"
+      />
+    </map>
+  </body>
+</html>

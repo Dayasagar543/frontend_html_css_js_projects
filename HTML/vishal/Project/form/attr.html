@@ -21,7 +21,7 @@
   </style>
   <body>
     <form action="#">
-      <label for="email">Enter Your Email: </label>
+      <!-- <label for="email">Enter Your Email: </label>
       <input
         type="email"
         name="userEmail"
@@ -33,7 +33,20 @@
         value="user@example.com"
       />
       <br />
-      <input type="submit" value="Login" />
+      <input type="submit" value="Login" /> -->
+
+      <label for="email">Enter your email address</label>
+      <input
+        type="email"
+        autocomplete="on"
+        placeholder="enter the email"
+        name="email"
+        id="email"
+        required
+        size="60"
+        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+      />
+      <button type="submit" value="submit">submit</button>
     </form>
   </body>
 </html>
